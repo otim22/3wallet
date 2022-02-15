@@ -1,0 +1,12 @@
+{
+  "name": "@3wallet/root",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {  
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "start": "lerna exec --scope @3wallet/react-app yarn start"
+   },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
